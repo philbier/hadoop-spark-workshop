@@ -350,7 +350,7 @@ We can also change it to `10` records and truncate them to 50 characters:
 
 ```
 %pyspark
-book.show(10, truncate=50)
+bookDF.show(10, truncate=50)
 ```
 
 Next we tokenize each word, by splitting on a single space character, return a list of words:
